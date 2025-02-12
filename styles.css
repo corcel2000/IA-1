@@ -1,0 +1,49 @@
+ body {
+            background: url('indexImage.jpg');
+            background-size: cover;
+            color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .navbar {
+            background-color: rgba(0, 0, 139, 0.8);
+            padding: 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+.personbox {
+    border: 2px solid #ccc; /* Light border */
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.personbox:hover {
+    background-color: #f0f8ff; /* Light blue background on hover */
+    border-color: #007bff; /* Change border color on hover */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Subtle shadow for depth */
+}
+.pdf {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+    }
+    .pdf
+     .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease-in-out;
+        }
+        .container:hover {
+            background: #e0e0e0;
+        }
