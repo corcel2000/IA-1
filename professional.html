@@ -8,7 +8,7 @@
         body {
             background: url('Assets/background.jpg') no-repeat center center fixed;
             background-size: cover;
-            color: white;
+            color: black;
             font-family: Arial, sans-serif;
             text-align: center;
         }
@@ -30,6 +30,18 @@
         aspect-ratio: 4 / 3;
     }
     .pdf
+     .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease-in-out;
+        }
+        .container:hover {
+            background: #e0e0e0;
+        }
     </style>
 </head>
 <body>
@@ -42,7 +54,35 @@
         <a href="references.html">References</a>
     </div>
     <h1>Professional Page</h1>
-    <p>This website showcases my personal and professional journey.</p>
+     <div class="container">
+        <p><strong>Career Vision & Mission</strong></p>
+        
+        <p><strong>Professional Vision Statement:</strong> My vision is to become a highly skilled and innovative Computer Programmer or Computer Systems Engineer, contributing to the development of cutting-edge technology solutions that enhance efficiency, security, and user experience.</p>
+        
+        <p><strong>Mission Statement:</strong> My mission is to leverage my knowledge in computer science to design, develop, and optimize software systems that improve business processes and everyday life.</p>
+        
+        <p><strong>Career Details</strong></p>
+        
+        <p><strong>Computer Programmer</strong></p>
+        <p><strong>Skills Required:</strong></p>
+        <ul>
+            <li>Proficiency in programming languages (Python, Java, C++)</li>
+            <li>Problem-solving and analytical thinking</li>
+            <li>Strong understanding of algorithms and data structures</li>
+            <li>Knowledge of software development methodologies</li>
+        </ul>
+        <p><strong>Job Requirements:</strong></p>
+        <ul>
+            <li>Writing, testing, and debugging code</li>
+            <li>Collaborating with developers and IT professionals</li>
+            <li>Ensuring code efficiency and security</li>
+        </ul>
+        <p><strong>Qualifications:</strong></p>
+        <ul>
+            <li>Bachelor’s degree in Computer Science or related field</li>
+            <li>Certifications in programming languages</li>
+        </ul>
+    </div>
   <iframe class="pdf" src="Resume.docx.pdf" width="800" height="500"></iframe>
 </body>
 </html>
