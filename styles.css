@@ -46,3 +46,9 @@ border: 1px solid #ccc;
         .container:hover {
             background: #e0e0e0;
         }
+img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
