@@ -47,8 +47,8 @@ border: 1px solid #ccc;
             background: #e0e0e0;
         }
 img {
-  width: 400px
-  height: 225px;
+  width: 200px;
+  height: auto;
   aspect-ratio: 16 / 9;
 }
 
