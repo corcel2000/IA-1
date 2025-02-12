@@ -19,16 +19,15 @@
             text-decoration: underline;
         }
 .personbox {
-    border: 2px solid #ccc; /* Light border */
-    padding: 20px;
-    margin-bottom: 20px;
-    transition: all 0.3s ease; /* Smooth transition */
+border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            transition: background-color 0.3s;
 }
 
 .personbox:hover {
-    background-color: #f0f8ff; /* Light blue background on hover */
-    border-color: #007bff; /* Change border color on hover */
-    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Subtle shadow for depth */
+ background-color: #f0f0f0;
 }
 .pdf {
         width: 100%;
